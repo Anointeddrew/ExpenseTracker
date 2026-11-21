@@ -2,14 +2,18 @@
   "expo": {
     "name": "Daily Expense Tracker",
     "slug": "daily-expense-tracker",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
       "backgroundColor": "#F5F7FB"
     },
     "android": {
-      "package": "com.drewtech.dailyexpensetracker"
+      "package": "com.drewtech.dailyexpensetracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "ios": {
       "bundleIdentifier": "com.drewtech.dailyexpensetracker"
